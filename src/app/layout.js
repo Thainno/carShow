@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import NavBar from "@/components/NavBar";
 
 export const metadata = {
   title: "Car Show",
@@ -9,7 +10,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-zinc-900">
+        <main>
+          <NavBar />
+          {children}
+        </main>
+      </body>
     </html>
   );
 }
