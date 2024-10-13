@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function NavBar() {
   return (
-    <header className="flex justify-between items-center h-28 mx-24 text-white">
+    <header className="flex justify-between items-center w-[100vw] h-28 px-24 fixed text-white ">
       <Image
         src="/images/logo.svg"
         width={200}
