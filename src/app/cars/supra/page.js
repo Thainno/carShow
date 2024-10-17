@@ -1,9 +1,9 @@
-import FunctionCar from "@/components/FunctionCar.js";
-import Car from "@/components/Car";
-import AboutCar from "@/components/AboutCar";
-import OptionsLeft from "@/components/OptionsLeft";
-import CarRoll from "@/components/CarRoll";
-import OptionsRight from "@/components/OptionsRight";
+import FunctionCar from "@/components/cars/FunctionCar.js";
+import Car from "@/components/cars/Car";
+import AboutCar from "@/components/cars/AboutCar";
+import OptionsLeft from "@/components/layout/OptionsLeft";
+import CarRoll from "@/components/cars/CarRoll";
+import OptionsRight from "@/components/layout/OptionsRight";
 
 export default function Supra() {
   return (
