@@ -1,5 +1,6 @@
 import Image from "next/image";
 import StatusBar from "./StatusBar";
+import Reviews from "./Reviews";
 
 export default function AboutCar() {
   return (
@@ -41,7 +42,9 @@ export default function AboutCar() {
           <StatusBar />
         </div>
       </section>
-      <footer className="relative">AVALIAÇÂO</footer>
+      <footer className="relative">
+        <Reviews />
+      </footer>
     </aside>
   );
 }
