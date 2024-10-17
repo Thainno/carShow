@@ -10,9 +10,9 @@ export default function Supra() {
     <>
       <section className="w-screem h-screen">
         <div className="flex flex-row justify-between px-9 pt-28 h-5/6 relative">
-          <FunctionCar />
-          <Car />
           <AboutCar />
+          <Car />
+          <FunctionCar />
         </div>
         <div className="flex flex-row items-center justify-between px-9 h-1/6">
           <OptionsLeft />
