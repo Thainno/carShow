@@ -1,3 +1,3 @@
 export default function OptionsRight() {
-  return <div>OPTIONS</div>;
+  return <div className="text-white">OPTIONS</div>;
 }

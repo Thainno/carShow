@@ -4,7 +4,7 @@ import Reviews from "./Reviews";
 
 export default function AboutCar() {
   return (
-    <aside className="bg-slate-400 w-80 p-6">
+    <aside className="w-80 p-6">
       <header>
         <picture className="flex flex-row gap-2">
           <Image
@@ -20,29 +20,14 @@ export default function AboutCar() {
             height={0}
           />
         </picture>
-        <h1 className="text-lg">Supra MK4 3.0 1993</h1>
+        <h1 className="text-lg text-white">Supra MK4 3.0 1993</h1>
       </header>
-      <section className="flex flex-col gap-8 my-4 relative">
-        <div>
-          <h2>Potência</h2>
-          <StatusBar />
-        </div>
-        <div>
-          <h2>Torque</h2>
-          <StatusBar />
-        </div>
-        <div>
-          <h2>Velocidade máxima</h2>
-          <StatusBar />
-        </div>
-        <div>
-          <h2>Rotação máxima</h2>
-          <StatusBar />
-        </div>
-        <div>
-          <h2>Aceleração</h2>
-          <StatusBar />
-        </div>
+      <section className="flex flex-col gap-6 my-4 relative">
+        <StatusBar />
+        <StatusBar />
+        <StatusBar />
+        <StatusBar />
+        <StatusBar />
       </section>
       <Reviews />
     </aside>

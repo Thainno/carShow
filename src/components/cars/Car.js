@@ -6,7 +6,7 @@ export default function Car() {
       <Image
         src="/images/cars/supra.png"
         alt="Supra Mk4"
-        width={900}
+        width={800}
         height={0}
       />
     </picture>

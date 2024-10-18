@@ -1,3 +1,7 @@
 export default function OptionsLeft() {
-  return <div>OPTIONS</div>;
+  return (
+    <adress className="text-white">
+      By <cite>tainu.dev</cite>
+    </adress>
+  );
 }
