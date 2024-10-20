@@ -1,6 +1,6 @@
 export default function FunctionCar() {
   return (
-    <aside className=" w-80">
+    <aside className="w-80 absolute right-0">
       <header>
         <nav className="">
           <ul className="flex flex-row justify-center gap-4 text-white">
