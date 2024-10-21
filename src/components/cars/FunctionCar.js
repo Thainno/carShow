@@ -16,20 +16,16 @@ export default function FunctionCar() {
       <section className="p-0">
         <div className="flex flex-row justify-center relative h-64">
           <img
-            src="/images/velocimetro.png"
-            className="w-20 h-20 absolute top-28 left-0"
+            src="/images/car-dashboard/dash-rpm.svg"
+            className="w-28 h-28 absolute top-24 left-4"
           ></img>
           <img
-            src="/images/velocimetro.png"
-            className="w-44 h-44 absolute top-8 left-8"
+            src="/images/car-dashboard/dash-speedometer.svg"
+            className="w-44 h-44 absolute top-8 z-10"
           ></img>
           <img
-            src="/images/velocimetro.png"
-            className="w-44 h-44 absolute top-8 right-8"
-          ></img>
-          <img
-            src="/images/velocimetro.png"
-            className="w-20 h-20 absolute top-28 right-0"
+            src="/images/car-dashboard/dash-gasoline.svg"
+            className="w-28 h-28 absolute top-24 right-4"
           ></img>
         </div>
         <div className="flex flex-row items-center justify-center">
