@@ -3,7 +3,7 @@ import Car from "@/components/cars/Car";
 import AboutCar from "@/components/cars/AboutCar";
 import OptionsLeft from "@/components/layout/OptionsLeft";
 import CarRoll from "@/components/cars/CarRoll";
-import OptionsRight from "@/components/layout/OptionsRight";
+import SocialMedia from "@/components/layout/SocialMedia";
 
 export default function Supra() {
   return (
@@ -17,7 +17,7 @@ export default function Supra() {
         <div className="flex flex-row items-center justify-between px-9 h-1/6">
           <OptionsLeft />
           <CarRoll />
-          <OptionsRight />
+          <SocialMedia />
         </div>
       </section>
     </>
