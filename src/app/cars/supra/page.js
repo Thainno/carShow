@@ -1,7 +1,7 @@
 import FunctionCar from "@/components/cars/FunctionCar.js";
 import Car from "@/components/cars/Car";
 import AboutCar from "@/components/cars/AboutCar";
-import OptionsLeft from "@/components/layout/OptionsLeft";
+import Credits from "@/components/layout/Credits";
 import CarRoll from "@/components/cars/CarRoll";
 import SocialMedia from "@/components/layout/SocialMedia";
 
@@ -15,7 +15,7 @@ export default function Supra() {
           <FunctionCar />
         </div>
         <div className="flex flex-row items-center justify-between px-9 h-1/6">
-          <OptionsLeft />
+          <Credits />
           <CarRoll />
           <SocialMedia />
         </div>
