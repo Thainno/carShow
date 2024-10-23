@@ -1,4 +1,5 @@
 import CarDashboard from "./CarDashboard";
+import Pedals from "./Pedals";
 
 export default function FunctionCar() {
   return (
@@ -17,7 +18,7 @@ export default function FunctionCar() {
       </header>
       <section className="p-0">
         <CarDashboard />
-        
+        <Pedals />
       </section>
     </aside>
   );
