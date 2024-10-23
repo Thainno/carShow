@@ -17,12 +17,7 @@ export default function FunctionCar() {
       </header>
       <section className="p-0">
         <CarDashboard />
-        <div className="flex flex-row items-center justify-center">
-          <img src="/images/pedais/embreagem.png" className="h-36"></img>
-          <img src="/images/pedais/freio.png" className="h-36"></img>
-          <img src="/images/pedais/acelerador.png" className="h-36"></img>
-          <img src="/images/pedais/cambio.png" className="h-12"></img>
-        </div>
+        
       </section>
     </aside>
   );
