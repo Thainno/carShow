@@ -1,7 +1,7 @@
 export default function CarDashboard() {
   return (
     <div className="flex flex-row justify-center items-center h-64">
-      <div className="flex justify-center items-center w-28 h-28 relative top-6 left-8">
+      <div className="flex justify-center items-center w-28 h-28 relative top-6 left-11">
         <img
           src="/images/car-dashboard/dash-rpm.svg"
           className="absolute"
@@ -21,7 +21,7 @@ export default function CarDashboard() {
           className="absolute"
         ></img>
       </div>
-      <div className="flex justify-center items-center w-28 h-28 relative top-6 right-8">
+      <div className="flex justify-center items-center w-28 h-28 relative top-6 right-11">
         <img
           src="/images/car-dashboard/dash-gasoline.svg "
           className="absolute"
