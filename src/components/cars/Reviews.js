@@ -1,7 +1,7 @@
 export default function Reviews() {
   return (
-    <footer className="">
-      <h1 className="text-7xl text-white">4.7</h1>
+    <footer className="mt-6">
+      <h1 className="text-5xl text-white">4.7</h1>
       <picture className="flex flex-row gap-1">
         <img className="w-5" src="/icons/star.svg"></img>
         <img className="w-5" src="/icons/star.svg"></img>

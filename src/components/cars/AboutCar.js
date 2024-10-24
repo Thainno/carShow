@@ -4,7 +4,7 @@ import Reviews from "./Reviews";
 
 export default function AboutCar() {
   return (
-    <aside className="w-80 absolute left-0">
+    <aside className="w-[370px] h-5/7 absolute left-0 p-10 bg-slate-700 bg-opacity-5 rounded-r-2xl">
       <header>
         <picture className="flex flex-row gap-2">
           <Image
@@ -20,7 +20,7 @@ export default function AboutCar() {
             height={0}
           />
         </picture>
-        <h1 className="text-lg text-white">Supra MK4 3.0 1993</h1>
+        <h1 className="text-x text-white">Supra MK4 3.0 1993</h1>
       </header>
       <section className="flex flex-col gap-6 my-4 relative">
         <StatusBar />

@@ -6,7 +6,7 @@ export default function StatusBar() {
         <p>400cv</p>
       </div>
       <div>
-        <div className="bg-slate-500 h-2 w-[320px] absolute rounded-full"></div>
+        <div className="bg-slate-500 h-2 w-[290px] absolute rounded-full"></div>
         <div className="bg-white h-2 w-24 absolute rounded-full"></div>
       </div>
     </div>
