@@ -4,7 +4,7 @@ import Reviews from "./Reviews";
 
 export default function AboutCar() {
   return (
-    <aside className="w-[370px] h-5/7 absolute left-0 p-10 bg-slate-700 bg-opacity-5 rounded-r-2xl">
+    <aside className="w-[370px] h-[470px] absolute left-0 p-10 bg-slate-700 bg-opacity-15 rounded-r-2xl">
       <header>
         <picture className="flex flex-row gap-2">
           <Image

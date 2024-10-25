@@ -3,13 +3,13 @@ import Pedals from "./Pedals";
 
 export default function FunctionCar() {
   return (
-    <aside className="w-80 h-4/6 absolute right-0 bg-slate-400 bg-opacity-25">
+    <aside className="w-[370px] h-[470px] absolute right-0 p-10 bg-slate-700 bg-opacity-15 rounded-l-2xl">
       <header>
         <nav className="flex justify-end text-white">
-          <button>Custom</button>
+          <button className="absolute top-4">Custom</button>
         </nav>
       </header>
-      <section className="p-0">
+      <section className="flex flex-col gap-6">
         <CarDashboard />
         <Pedals />
       </section>

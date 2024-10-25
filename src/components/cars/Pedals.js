@@ -1,7 +1,7 @@
 export default function Pedals() {
   return (
     <div className="flex flex-col text-white">
-      <div className="flex flex-row items-end justify-center">
+      <div className="flex flex-row items-end justify-center gap-4">
         <div className="flex flex-col items-center">
           <img src="/images/pedals/clutch.png" className="h-24"></img>
           <span>Q</span>
